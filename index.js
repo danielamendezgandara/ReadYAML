@@ -6,7 +6,7 @@ const YAML = require('yaml');
 try {
   const doc = yaml.load(fs.readFileSync('calculateModels.yml', 'utf8'));
   //const doc = fs.readFileSync('file.txt','utf8');
-  console.log(doc);
+  console.log(typeof(doc));
 } catch (e) {
   console.log(e);
 }
