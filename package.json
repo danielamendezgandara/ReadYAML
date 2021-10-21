@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type":"commonjs",
+  "type": "commonjs",
   "dependencies": {
     "js-yaml": "^4.1.0",
-    "yaml": "^1.10.2"
+    "yaml": "2.0.0-8"
   },
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.15.4"
