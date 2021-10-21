@@ -3,15 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type":"commonjs",
   "dependencies": {
+    "js-yaml": "^4.1.0",
     "yaml": "^1.10.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.15.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
+    "type": "C",
     "url": "git+https://github.com/danielamendezgandara/ReadYAML.git"
   },
   "author": "",
