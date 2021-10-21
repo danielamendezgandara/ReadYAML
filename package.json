@@ -2,17 +2,20 @@
   "name": "readyaml",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "type": "commonjs",
+  "main": "index.html",
+  "type": "commonjs","module": "",
   "dependencies": {
     "js-yaml": "^4.1.0",
     "yaml": "2.0.0-8"
   },
   "devDependencies": {
-    "@babel/plugin-transform-modules-commonjs": "^7.15.4"
+    "@babel/plugin-transform-modules-commonjs": "^7.15.4",
+    "serve": "^11.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve ./src",
+    "deploy": "gh-pages -d src"
   },
   "repository": {
     "type": "C",
